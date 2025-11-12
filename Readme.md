@@ -22,7 +22,7 @@ with Xcode project targets, SPM packages, or both.
 
 ## Setup
 
-### Use SwiftLint with SPM packages
+### :package: Use SwiftLint with SPM packages
 
 To use this package with SPM packages, add it as a package dependency and then add it as a target plugin.
 Please verify the correct path from your package to the `SwiftLintPlugin` package. In my case, it was placed in 
@@ -45,7 +45,7 @@ targets: [
 ```
 
 
-### Use SwiftLint with Xcode project targets
+### :hammer: Use SwiftLint with Xcode project targets
 
 To use this package with Xcode project targets, select the project file, choose the appropriate target,
 and then add this package to the `Build Phases` tab under the `Run Build Tool Plug-ins` section.
@@ -62,7 +62,7 @@ The best way to use SwiftLint configuration files is to have only one file and p
 If you need custom configuration files for some packages, just place them in the root folder of those packages; 
 the plugin will use it first.
 
-Configuration files are usually named “.swiftlint.yml” or “swiftlint.yml”. 
+Configuration files are usually named `.swiftlint.yml` or `swiftlint.yml`. 
 
 The plugin is trying to find the first configuration file starting from the package/target folder and going up 
 to four levels of parent folders.
@@ -71,7 +71,7 @@ to four levels of parent folders.
 These settings can be modified in the `Config.swift` file.
 
 
-Checking Realm SwiftLint https://github.com/realm/SwiftLint for the latest versions is a personal choice.
+Checking Realm SwiftLint for the latest versions is a personal choice.
 The package is configured to use the current SwiftLint version, as indicated in the binary target URL and checksum. 
 To upgrade to a newer version of SwiftLint, you can manually update the URL and checksum in the binaryTarget property. 
 Additionally, refer to the SwiftLint release notes for the appropriate artifact bundle filename and checksum.
@@ -79,8 +79,8 @@ Additionally, refer to the SwiftLint release notes for the appropriate artifact 
 
 ## Considerations
 
-Important
-: In the original Realm SwiftLint package.swift file (at the end of it) you may find correct binary file name
-and checksum. Update this package binaryTarget manually with new SwiftLint release.
+> [!IMPORTANT]
+> In the original Realm SwiftLint package.swift file (at the end of it) you may find correct binary file name
+and checksum. Update this package binaryTarget manually with the new SwiftLint release from here: https://github.com/realm/SwiftLint.
 
 
