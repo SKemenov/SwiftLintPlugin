@@ -77,7 +77,7 @@ To upgrade to a newer version of SwiftLint, you can manually update the URL and 
 Additionally, refer to the SwiftLint release notes for the appropriate artifact bundle filename and checksum.
 
 
-## Considerations
+## Conclusion
 
 > [!IMPORTANT]
 > In the original Realm SwiftLint package.swift file (at the end of it) you may find correct binary file name
