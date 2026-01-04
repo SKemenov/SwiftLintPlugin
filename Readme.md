@@ -9,7 +9,7 @@ lint Swift source code during the pre-build process.
 - Use your custom SwiftLint rules tailored to your project's needs.
 - Easy integration with Xcode project targets.
 - Easy integration with Swift Package Manager (SPM).
-- Built on the original SwiftLint binary version **0.62.2**.
+- Built on the original SwiftLint binary version **0.63.0**.
 
 
 ## Installation
@@ -81,6 +81,6 @@ Additionally, refer to the SwiftLint release notes for the appropriate artifact 
 
 > [!IMPORTANT]
 > In the original Realm SwiftLint package.swift file (at the end of it) you may find correct binary file name
-and checksum. Update this package binaryTarget manually with the new SwiftLint release from here: https://github.com/realm/SwiftLint.
+and checksum. Update this package binaryTarget manually with the new SwiftLint release from here: https://github.com/realm/SwiftLint
 
 
