@@ -9,7 +9,7 @@ lint Swift source code during the pre-build process.
 - Use your custom SwiftLint rules tailored to your project's needs.
 - Easy integration with Xcode project targets.
 - Easy integration with Swift Package Manager (SPM).
-- Built on the original SwiftLint binary version **0.63.0**.
+- Built on the original SwiftLint binary version **0.63.1**.
 
 
 ## Installation
